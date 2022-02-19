@@ -1,0 +1,36 @@
+.table1 {
+    color: #000000;
+    background: hsl(69, 84%, 43%);
+    font-style: italic;
+    border-collapse: collapse;
+}
+
+#frow {
+    background-color: #F2CC0C;
+}
+
+tr:nt-child(2n) {
+    background-color: aquamarine;
+}
+
+tr:nth-child(2n + 1) {
+    background-color: #c3e22b;
+}
+
+tr:hover {
+    background-color: blanchedalmond;
+}
+
+body {
+    background-color: #8BC6EC;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+th,
+td {
+    padding: 3px 20px;
+}
